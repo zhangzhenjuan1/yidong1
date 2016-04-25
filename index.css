@@ -1,0 +1,39 @@
+.aa{
+	border:1px solid #ccc;
+	height:44px;
+	text-align: center;
+	line-height: 44px;
+}
+.bg{
+	background:#4083EA;
+	color:white;
+}
+.aa1{
+	width:50%;
+	height:100%;
+	text-align: center;
+	line-height: 44px;
+	border:1px solid #ccc;
+}
+.bg1{
+	background:#EAE9E9;
+	color:#323232;
+}
+.fj{
+	background: #F7F6F6;
+}
+.img{
+	width:35%;
+	height:80px;
+	border:1px solid #ccc;
+}
+
+.jing{height:60px;
+	text-align: center;
+	line-height:40px;
+	color:#ccc;
+}
+.aaa{
+	border:none;
+	border-right:1px solid #ccc;
+}

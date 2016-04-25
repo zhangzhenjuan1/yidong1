@@ -1,0 +1,104 @@
+<!doctype hmtl>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>移动端页面1</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <!-- frozenui/css/frozen.css -->
+	<link rel="stylesheet" type="text/css" href="css/frozen.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="js/frozen.js"></script>
+</head>
+<body>
+	<ul class="ui-row bg">
+	    <li class="ui-col ui-col-33 aa">
+	    	<div class="aa1">百度</div>
+	    	<div class="aa1">
+	    		<i class="ui-icon-scan"></i>
+	    	</div>
+
+	    </li>
+	    <li class="ui-col ui-col-33 aa">百度@旅游</li>
+	    <li class="ui-col ui-col-33 aa">用户名</li>
+	    
+	</ul>
+	<div class="ui-searchbar-wrap ui-border-b">
+    <div class="ui-searchbar ui-border-radius">
+        <i class="ui-icon-search"></i>
+        <div class="ui-searchbar-text">搜索旅游目的地</div>
+        <div class="ui-searchbar-input"><input value="" type="tel" placeholder="搜索号码（2-10位）" autocapitalize="off"></div>
+        <i class="ui-icon-close"></i>
+    </div>
+    <button class="ui-searchbar-cancel">取消</button>
+	</div>
+	<ul class="ui-row bg1">
+	    <li class="ui-col ui-col-50 aa">推荐</li>
+	    <li class="ui-col ui-col-50 aa fj">我的附近</li>
+	    
+	    
+	</ul>
+	<div class="ui-slider">
+    <ul class="ui-slider-content" style="width: 300%">
+        <li class="current"><span style="background:#E6E5E5"></span></li>
+        <li><span style="background:#ABADAB"></span></li>
+        <li><span style="background:#A7A7A9"></span></li>
+    </ul>
+</div>
+<div class="dangji">当季目的地推荐</div>
+<ul class="ui-list ui-list-pure ui-border-tb">
+    <li class="ui-border-t">
+    	<div class="img"></div>
+        <p><span>1.faycheng </span><span class="date"> 2月12日</span></p>
+        <h4>这本书太赞了，每次看都有不一样的体会和感悟，超级喜欢！期待大结局。</h4>
+    </li>
+    <li class="ui-border-t">
+    	<div class="img"></div>
+
+        <p><span>2.faycheng </span><span class="date"> 2月12日</span></p>
+        <h4>标题标题标题标题标题标题题标题标题标题标题标题标题标题标题标题</h4>
+    </li>
+    <li class="ui-border-t">
+    	<div class="img"></div>
+
+        <p><span>3.faycheng </span><span class="date"> 2月12日</span></p>
+        <h4>标题标题标题标题标题标题题标题标题标题标题标题标题标题标题标题</h4>
+    </li>
+</ul>
+
+<ul class="ui-row bg1">
+	    <li class="ui-col ui-col-20 aa"></li>
+	    <li class="ui-col ui-col-20 aa aaa fj">移动</li>
+	    <li class="ui-col ui-col-20 aa aaa fj">桌面</li>
+	    <li class="ui-col ui-col-20 aa aaa fj">客户端</li>
+	    <li class="ui-col ui-col-20 aa fj"></li>
+	    
+	    
+	</ul>
+	<div class="jing">2016Baidu 京ICP证030000号</div>
+
+
+
+
+</body>
+<script type="text/javascript">
+(function(){
+
+    var slider = new fz.Scroll('.ui-slider', {
+        role: 'slider',
+        indicator: true,
+        autoplay: true,
+        interval: 3000
+    });
+
+    slider.on('beforeScrollStart', function(from, to) {
+        console.log(from, to);
+    });
+
+    slider.on('scrollEnd', function(cruPage) {
+        console.log(curPage);
+    });
+
+})();
+</script>
+</html>
